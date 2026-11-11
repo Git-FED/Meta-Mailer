@@ -1,0 +1,1 @@
+const scene=document.querySelector('.scene');let tx=50,ty=50;window.addEventListener('pointermove',e=>{tx=e.clientX/innerWidth*100;ty=e.clientY/innerHeight*100;scene.style.background=`radial-gradient(circle at ${tx}% ${ty}%,#151a38 0,#080a15 42%,#030409 100%)`});
