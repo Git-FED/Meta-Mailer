@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-go]').forEach(el=>el.addEventListener('click',()=>{window.location.href=el.dataset.go}));document.querySelectorAll('form[data-static-form]').forEach(form=>form.addEventListener('submit',e=>{e.preventDefault();window.location.href=form.getAttribute('action')||'thanks.html'}));

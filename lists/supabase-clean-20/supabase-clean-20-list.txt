@@ -1,0 +1,2 @@
+# Supabase clean list placeholder
+# Recipient addresses intentionally omitted from this documentation archive.
